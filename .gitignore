@@ -24,6 +24,12 @@ hs_err_pid*
 .iead/
 out/
 target/
+<<<<<<< HEAD
 .project
 .classpath
 .settings/*
+=======
+.classpath
+.project
+.settings
+>>>>>>> salut
