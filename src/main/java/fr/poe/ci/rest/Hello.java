@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
 
     @GetMapping("hi/{nom}")
-    public String hi(@PathVariable("nom") String name) {
+    public String hi(@PathVariable("nom") String nom) {
         return "hi " + nom;
     }
 }
