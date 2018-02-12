@@ -9,11 +9,11 @@ public class Hello {
 	
     @GetMapping("salut/{nom}")
     public String salut(@PathVariable("nom") String nom) {
-        return "salut " + nom;
+        return "Salut " + nom;
     }
 
     @GetMapping("bonjour/{nom}")
     public String bonjour(@PathVariable("nom") String nom) {
-        return "bonjour " + nom;
+        return "Bonjour " + nom;
     }
 }
