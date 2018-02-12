@@ -11,12 +11,11 @@ public class Hello {
 	public String hi(@PathVariable("name") String name) {
 		return "hi " + name;
 	}
-	
+
 	@GetMapping("salut/{nom}")
 	public String salut(@PathVariable("nom") String nom) {
 		return "Salut " + nom;
 	}
-
 
 	@GetMapping("bonjour/{nom}")
 	public String bonjour(@PathVariable("nom") String nom) {
