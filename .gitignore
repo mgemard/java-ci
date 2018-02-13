@@ -24,3 +24,7 @@ hs_err_pid*
 .iead/
 out/
 target/
+.project
+.classpath
+.settings/*
+.settings/
