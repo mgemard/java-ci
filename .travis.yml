@@ -1,9 +1,6 @@
 language: java
 jdk:
  - oraclejdk8
-mvn sonar:sonar
-  -Dsonar.organization=mgemard-github
-  -Dsonar.host.url=https://sonarcloud.io
-  -Dsonar.login=79392597facc92dd302ee15727b5f5e86781703b
+install: mvn sonar:sonar -Dsonar.organization=mgemard-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=79392597facc92dd302ee15727b5f5e86781703b
 notifications:
   email: false
