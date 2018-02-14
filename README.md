@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages (blabla)
+## Welcome to GitHub Pages (blabla) [![Build Status](https://travis-ci.org/mgemard/java-ci.svg?branch=master)](https://travis-ci.org/mgemard/java-ci)
 
 You can use the [editor on GitHub](https://github.com/iakoi/java-ci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
